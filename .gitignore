@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.pytest_tmp/
+.test_artifacts/
+pytest-cache-files-*
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+data/processed/*.csv
+data/results/*.csv
+data/results/*.json
+data/results/hardware/*.log
+data/results/hardware/*.txt

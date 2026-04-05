@@ -1,0 +1,131 @@
+{
+  "captured_at_utc": "2026-04-02T19:27:12.778429+00:00",
+  "config": {
+    "backend": "ibm_fez",
+    "bitstring": "0000000000000000000000000000000000000000000000000",
+    "delta": 0.15,
+    "initial_layout": null,
+    "instance_id": "operator_loschmidt_echo_49x648",
+    "optimization_level": 1,
+    "reuse_hardware_job_id": null,
+    "seed_transpiler": 424242,
+    "shots": 256,
+    "submit_only": true,
+    "tracker_label": "49x648",
+    "trotter_L": 3
+  },
+  "notes": [
+    "This is a single basis-term hardware probe for the published tracker circuit.",
+    "It is not yet a full Monte Carlo estimate of f_delta(O)."
+  ],
+  "observable": {
+    "active_qubits": [
+      33,
+      39,
+      45
+    ],
+    "declared_qubits": [
+      52,
+      59,
+      72
+    ],
+    "source_label": "Z52 Z59 Z72"
+  },
+  "perturbation_support": {
+    "active_qubits": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "declared_qubits": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      18,
+      19,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31,
+      32,
+      33,
+      34,
+      35,
+      37,
+      38,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "source": "inferred from published QASM as the declared qubits carrying rz(2*delta)"
+  },
+  "raw": {
+    "counts": null,
+    "input_sigma": 1,
+    "output_expectation": null,
+    "weighted_term": null
+  },
+  "runtime": {
+    "hardware_job_id": "d77c643c6das739gji3g",
+    "hardware_job_metadata": {
+      "backend_name": "ibm_fez",
+      "creation_date": null,
+      "job_id": "d77c643c6das739gji3g",
+      "metrics": {
+        "bss": {
+          "seconds": 0
+        },
+        "caller": "qiskit_ibm_runtime~sampler.py",
+        "qiskit_version": "qiskit_ibm_runtime-0.40.0,qiskit-1.4.5*,qiskit_aer-0.17.0*,qiskit_experiments-0.7.0,qiskit_nature-0.7.2,qiskit_machine_learning-0.7.2,qiskit_optimization-0.6.1,circuit_knitting_toolbox-0.7.2",
+        "timestamps": {
+          "created": "2026-04-02T19:27:12.166398Z",
+          "finished": null,
+          "running": null
+        },
+        "usage": {
+          "quantum_seconds": 0,
+          "seconds": 0
+        }
+      },
+      "session_id": null,
+      "status": "QUEUED",
+      "usage": 0,
+      "usage_estimation": {
+        "quantum_seconds": 1.259448625
+      }
+    },
+    "sampler_interface": "SamplerV2-submit-only"
+  },
+  "transpiled": {
+    "depth": 167,
+    "size": 3483,
+    "two_qubit_gate_count": 390
+  }
+}
