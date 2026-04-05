@@ -1,10 +1,10 @@
 # tracker_ole_repro
 
-Reproduction-first scaffold for a local Windows workflow that rebuilds the tracker OLE benchmark semantics before any 80/90-qubit extension work.
+Reproduction-first scaffold for a local Windows workflow that rebuilds the tracker OLE benchmark before any 80/90-qubit extension work.
 
 ## Project Rules
 
-- Reproduce tracker OLE semantics before adding new circuit families.
+- Reproduce tracker OLE before adding new circuit families.
 - Keep circuit parsing, estimator logic, simulation, and analysis separate.
 - Treat 80Q and 90Q work as extensions, not as benchmark reproduction claims.
 - Compare against the earlier black-hole/locality project only after internal validation.
