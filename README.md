@@ -13,9 +13,9 @@ Reproduction-first scaffold for a local Windows workflow that rebuilds the track
 
 1. Fetch tracker assets
 2. Inspect raw QASM
-3. Validate estimator semantics
+3. Validate estimator definition
 4. Reproduce 49Q and 70Q reference instances
-5. Extend to 80Q and 90Q with tracker-compatible semantics
+5. Extend to 80Q and 90Q with tracker-compatible rules
 6. Compare to older black-hole/locality project
 
 ## Quick Start
@@ -73,7 +73,7 @@ Expected credentials follow the qlab convention:
 - `data/processed/` holds structural circuit summaries.
 - `data/results/` holds estimator and simulation outputs.
 - `src/tracker_ole_repro/` contains the Python package.
-- `tests/` keeps small semantic and parser checks green before large runs.
+- `tests/` keeps small rule and parser checks green before large runs.
 
 ## Current Scope
 
