@@ -63,7 +63,6 @@ python -m tracker_ole_repro.cli.run_tracker_hardware `
 Expected credentials follow the qlab convention:
 
 - `QCAPI_TOKEN`
-- `QISKIT_IBM_TOKEN`
 - `IBM_QUANTUM_TOKEN`
 - optional `QISKIT_IBM_INSTANCE`
 
