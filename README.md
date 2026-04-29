@@ -68,7 +68,7 @@ Expected credentials follow the qlab convention:
 
 ## Layout
 
-- `docs/` captures scope, semantics, and reproduction criteria.
+- `docs/` captures scope and reproduction criteria.
 - `data/raw/` is for tracker QASM and metadata.
 - `data/processed/` holds structural circuit summaries.
 - `data/results/` holds estimator and simulation outputs.
